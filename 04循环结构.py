@@ -31,31 +31,31 @@
 *********
 """
 
-for i in range(1, 6):
-    for j in range(i):
-        print('*', end ='')
-    print('\t')
+# for i in range(1, 6):
+#     for j in range(i):
+#         print('*', end ='')
+#     print('\t')
 
-print('\t\t')
+# print('\t\t')
 
-for i in range(1, 6):
-    num = 0
-    for j in range(1, 6):
-        if num < 5-i:
-            print(' ', end='')
-            num += 1
-        else:
-            print('*', end='')
-    print('\t')
-print('\t')
+# for i in range(1, 6):
+#     num = 0
+#     for j in range(1, 6):
+#         if num < 5-i:
+#             print(' ', end='')
+#             num += 1
+#         else:
+#             print('*', end='')
+#     print('\t')
+# print('\t')
 
-for i in range(5):
-    num = 0
-    for j in range(5+i):
+# for i in range(5):
+#     num = 0
+#     for j in range(5+i):
         
-        if num < 4-i:
-            print(' ', end='')
-            num += 1
-        else:
-            print('*', end='')
-    print('\t')
+#         if num < 4-i:
+#             print(' ', end='')
+#             num += 1
+#         else:
+#             print('*', end='')
+#     print('\t')
