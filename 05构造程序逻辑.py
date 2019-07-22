@@ -59,16 +59,16 @@ cpaps赌博游戏
 --------------------- 
 """
 
-from random import randint
+# from random import randint
 
 
-while True:
-    i = randint(1, 7)
-    j = randint(1, 7)
-    if i + j == 7 or i + j ==11:
-        print('玩家胜')
-        break
-    elif i + j == 2 or i + j == 3 or i + j == 12:
-        print('玩家输')
-        break
+# while True:
+#     i = randint(1, 7)
+#     j = randint(1, 7)
+#     if i + j == 7 or i + j ==11:
+#         print('玩家胜')
+#         break
+#     elif i + j == 2 or i + j == 3 or i + j == 12:
+#         print('玩家输')
+#         break
     
