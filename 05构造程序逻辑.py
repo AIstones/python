@@ -14,17 +14,17 @@
 完全数
 """
 
-def wanquanshu(x):
-    li = []
-    for i in range(2, x):
-        if x % i == 0:
-            li.append(i)
-    sum = 1    
-    for j in li:
-        sum += j
-    if sum == x:
-        print('该数是完全数%d' % x)
-for n in range(10000):  
-    wanquanshu(n)
+# def wanquanshu(x):
+#     li = []
+#     for i in range(2, x):
+#         if x % i == 0:
+#             li.append(i)
+#     sum = 1    
+#     for j in li:
+#         sum += j
+#     if sum == x:
+#         print('该数是完全数%d' % x)
+# for n in range(10000):  
+#     wanquanshu(n)
 
 
