@@ -63,8 +63,8 @@ cpaps赌博游戏
 
 
 # while True:
-#     i = randint(1, 7)
-#     j = randint(1, 7)
+#     i = randint(1, 6)
+#     j = randint(1, 6)
 #     if i + j == 7 or i + j ==11:
 #         print('玩家胜')
 #         break
@@ -72,3 +72,39 @@ cpaps赌博游戏
 #         print('玩家输')
 #         break
     
+# def factorial(num):
+#     """
+#     求阶乘
+
+#     :param num: 非负整数
+#     :return: num的阶乘
+#     """
+#     result = 1
+#     for n in range(1, num + 1):
+#         result *= n
+#     return result
+
+# m = int(input('m = '))
+# n = int(input('n = '))
+
+"""
+实现计算求最大公约数和最小公倍数
+"""
+# def gcd(x, y):
+#     (x, y) = (y, x) if x > y else (x, y)
+#     for factor in range(x, 0, -1):
+#         if x % factor == 0 and y % factor == 0:
+#             return factor
+# def lcm(x, y):
+#     return x * y // gcd(x, y)
+
+"""
+实现判断一个数是不是回文数
+"""
+# def is_palindrome(num):
+#     tem = num
+#     total = 0
+#     while temp > 0:
+#         total = total * 10 + temp % 10
+#         temp //= 10
+#     return total == num
